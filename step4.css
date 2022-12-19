@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+/* sum font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+/* genra font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+
+
+
+
+body {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1018%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsRadialGradient1019)'%3e%3c/rect%3e%3cpath d='M1440 0L1190.66 0L1440 196.81z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1190.66 0L1440 196.81L1440 363.49L564.97 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M564.9699999999999 0L1440 363.49L1440 390.58L224.20999999999992 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M224.21000000000004 0L1440 390.58L1440 451.26L96.72000000000004 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 560L674.26 560L0 328.09000000000003z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 328.09000000000003L674.26 560L706.36 560L0 174.10000000000002z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 174.10000000000002L706.36 560L1086.53 560L0 81.83000000000003z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 81.83000000000004L1086.53 560L1150.12 560L0 46.05000000000004z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1018'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cradialGradient cx='100%25' cy='50%25' r='1466.97' gradientUnits='userSpaceOnUse' id='SvgjsRadialGradient1019'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(239%2c 230%2c 237%2c 1)' offset='0'%3e%3c/stop%3e%3c/radialGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+    color: rgb(22, 22, 22);
+}
+
+
+section h1 {
+    margin-top: 70px;
+    /* border-top: 3px solid #365563;*/
+    color: rgb(22, 22, 22);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    cursor: context-menu;
+}
+
+section h5 {
+    color: rgb(22, 22, 22);
+    cursor: context-menu;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+section span {
+    color: #5B4850;
+}
+
+section h4 {
+    border-bottom: 3px dotted #725A65;
+    margin-bottom: 150px;
+    color: rgb(22, 22, 22);
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.6;
+    text-align: left;
+}
+
+section a {
+    color: #673C60;
+    font-weight: 700;
+    cursor: progress;
+}
+
+section img {
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-right: 285px;
+}
+
+
+/* responsive */
+
+@media only screen and (max-width: 900px) {
+    main {
+        width: 100%;
+        display: block;
+    }
+}
